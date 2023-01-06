@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./lib/p5.dom.min.js"></script>
+  <script src="./lib/p5.js"></script>
+  <script src="./lib/p5.play.js"></script>
+  <script src="./lib/p5.sound.min.js"></script>
+  <script src="./lib/matter.js"></script>
+  <script src="./lib/matter.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>HTML,CSS AND JAVASCRIPT PRACTISE</title>
+  <!-- Sweet Alert c40 -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="sweetalert.min.js">
+  </script>
+  <link rel="stylesheet" type="text/css" href="sweetalert.css" />
+  <!-- THIS LINK IMPORT THE SWEETALERT -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="sketch.js"></script>
+</head>
+
+<body >
+  <div class="saini"> HELLO RAM RAM SAINI JI </div>
+  <h2 id="sher"> HELLO GUYS IF YOU WANT TO SEE OUTPUT OF THIS PAGE PLEASE GO TO CONSOLE</h2>
+
+  <!-- THIS IS USING FOR FIRST ADDEVENTLISTNER FUNCTION -->
+  <!-- <p id="lion">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque molestias aspernatur deserunt ut
+    aperiam omnis
+    consectetur neque tempore iusto sit beatae quam dignissimos, cumque delectus eum sed necessitatibus. Nisi,
+    voluptatibus!</p> -->
+
+  <!-- I KNOW HOW TO USE ALL EVENT LISTNER FUNCTION WITHOUT USING ("ADDEVENTLISTNER FUNCTION")! -->
+  <p id="jump" onclick="bold1()"> CLICK ME FOR RUN THE ONCLICK EVENT </p>
+  <p id="jump" onmousedown="bold2()"> CLICK ME FOR RUN THE ONMOUSEDOWN EVENT </p>
+  <p id="jump" onmouseup="bold3()"> CLICK ME FOR RUN THE ONMOUSEUP EVENT </p>
+  <p id="jump" onmouseover="bold4()"> CLICK ME FOR RUN THE ONMOUSEOVER EVENT </p>
+  <p id="jump" onmouseout="bold5()"> CLICK ME FOR RUN THE ONMOUSEOUT EVENT </p>
+
+  <script>
+    // let lion = document.getElementById("lion");
+    //I KNOW HOW TO USE ALL EVENT LISTNER FUNCTION WITH USING ('ADDEVENTLISTNER FUNCTION')!
+
+    // lion.addEventListener("mouseover", () => {
+    //   console.log("MOUSE SUCCESFUL INSIDE")
+    // });
+
+    // lion.addEventListener("mouseout", () => {
+    //   console.log("MOUSE SUCCESFUL OUTSIDE")
+    // });
+
+
+    // lion.addEventListener("mousedown", () => {
+    //   console.log("MOUSE DOWN SUCCESFUL")
+    // });
+
+    // lion.addEventListener("mouseup", () => {
+    //   console.log("MOUSE UP SUCCESFUL")
+    // });
+
+    // lion.addEventListener("click", () => {
+    //   console.log("SUCCESFUL CLICKED")
+    // });
+
+    // NOW CREATING A FUNCTION FOR WITHOUT USING ADDEVETNLISTNER
+    function bold1() {
+      console.log('ONCLICK SUCCESSFUL RUN')
+    }
+    function bold2() {
+      console.log('ONMOUSEDOWN SUCCESSFUL RUN')
+    }
+    function bold3() {
+      console.log('ONMOUSEUP SUCCESSFUL RUN')
+    }
+    function bold4() {
+      console.log('ONMOUSEOVER SUCESSFUL RUN')
+    }
+    function bold5() {
+      console.log('ONMOUSEOUT SUCCESFUL RUN')
+    }
+  </script>
+</body>
+
+</html>
